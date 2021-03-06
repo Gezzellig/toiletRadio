@@ -1,8 +1,8 @@
 // the setup function runs once when you press reset or power the board
 #include <ESP8266WiFi.h> 
 #include "credentials.h"
-//const char* ssid //Is retreived from credentials.h
-//const char* password //Is retreived from credentials.h
+//const char* ssid = "wifiName" //Is retreived from credentials.h
+//const char* password = "wifiPassword" //Is retreived from credentials.h
 int ledPin = 2;
 
 void setup() {
