@@ -12,6 +12,8 @@ const int ledPin = 2;
 
 // To run, set your ESP8266 build to 160MHz, update the SSID info, and upload.
 const char *URL="http://jazz.streamr.ru/jazz-64.mp3";
+//const char *URL="https://21253.live.streamtheworld.com/RADIO538.mp3";
+//const char *URL="https://21253.live.streamtheworld.com/SUBLIME.mp3";
 
 AudioGeneratorMP3 *mp3;
 AudioFileSourceICYStream *file;
